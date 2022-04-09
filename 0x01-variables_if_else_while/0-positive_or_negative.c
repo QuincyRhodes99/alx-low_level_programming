@@ -26,7 +26,7 @@ printf("%i is negative\n", n);
 
 else
 {
-prinft("%i is position\n", n);
+printf("%i is position\n", n);
 }
 
 return (0)
