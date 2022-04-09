@@ -9,6 +9,7 @@
 int main(void)
 
 {
+
 	int n;
 
 	srand(time(0));
@@ -24,7 +25,7 @@ int main(void)
 	}
 	else
 	{
-	   printf("%i is position\n", n);
+	   printf("%i is positive\n", n);
 	}
 
 	return (0);
