@@ -5,7 +5,7 @@
  * @a:integer
  * @b:integer
  * Return:void
- * */
+ */
 void swap_int(int *a, int *b)
 {
 int x;
