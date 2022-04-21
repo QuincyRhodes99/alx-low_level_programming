@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atol - convert to a int
+ * _atoi - convert to a int
  * @s:string
  * Return:int
  */
