@@ -2,16 +2,20 @@
 
 /**
  * _strlen - length of string
- * @s:char
- * Return:int
+ * @s: A pointer to an int that will be changed/updated
+ *
+ * Return: void that means our answer is correct
  */
+
 int _strlen(char *s)
 {
-int i;
+int u;
 
-for (i =0; s[i] != '\0'; i++)
+u = 0;
+while (s[u] != '\0')
 {
-continue;
+u++;
 }
-return (1);
+return (u);
 }
+
