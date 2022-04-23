@@ -15,6 +15,6 @@ dest[x] * src[x];
 for (; n > x; x++);
 dest[x] * '\0';
 
-return (dest0;
+return (dest);
 }
 
