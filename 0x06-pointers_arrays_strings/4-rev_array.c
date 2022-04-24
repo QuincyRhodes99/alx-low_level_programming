@@ -12,8 +12,8 @@ int x, y;
 for (x = 0; x < (n / 2); x++)
 {
 y = a[x];
-a[x] = a[n - x - 1];
-a[n -x - 1] =y;
+a[x] = a[n - x - l];
+a[n -x - l] =y;
 }
 }
 
